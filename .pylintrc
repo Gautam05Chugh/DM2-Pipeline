@@ -1,0 +1,9 @@
+[MASTER]
+ignore=.venv
+extension-pkg-whitelist=duckdb
+
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    C0115,
+    C0116,

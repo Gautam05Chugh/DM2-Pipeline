@@ -1,0 +1,17 @@
+[project]
+name = "dagster-jaffle-restaurant"
+version = "0.1.0"
+description = "Dagster pipeline with bronze-silver-gold layers for Jaffle Shop restaurant data"
+requires-python = ">=3.10"
+dependencies = [
+  "dagster",
+  "dagster-webserver",
+  "duckdb",
+  "pandas",
+  "requests",
+  "pylint",
+  "python-dotenv",
+]
+
+[tool.dagster]
+module_name = "dagster_jaffle_restaurant.defs"
